@@ -5,12 +5,28 @@
   },
   "elasticsearch": {
     "host": "ELASTICSEARCH_HOST",
-    "port": "ELASTICSEARCH_PORT"
+    "port": "ELASTICSEARCH_PORT",
+    "user": "ELASTICSEARCH_USER",
+    "password": "ELASTICSEARCH_PASSWORD",
+    "apiVersion": "ELASTIC_API_VERSION"
   },
   "redis": {
     "host": "REDIS_HOST",
     "port": "REDIS_PORT",
     "db": "REDIS_DB",
     "auth": "REDIS_AUTH"
+  },
+  "authHashSecret": "SECRET",
+  "objHashSecret": "OBJECT_SECRET",
+  "magento2": {
+    "imgUrl": "MAGENTO_IMG_URL",
+    "assetPath": "/../var/magento2-sample-data/pub/media",
+    "api": {
+      "url": "MAGENTO_API",
+      "consumerKey": "MAGENTO_CONSUMER_KEY",
+      "consumerSecret": "MAGENTO_CONSUMER_SECRET",
+      "accessToken": "2ne93dvjekc1f8v648t2fki97umwj0dg",
+      "accessTokenSecret": "fdnlmskhqx3t8me62xbmp7i4ol8sofya"
+    }
   }
 }
